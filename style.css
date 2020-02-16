@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+body {
+    width: 90vw;
+    height: 80vh;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: lightgrey
+}
+
+h1 {
+    
+    width: 80%;
+    margin-top: 2em;
+
+    color: rgb(29, 139, 29);
+    text-transform: uppercase;
+}
+
+.quote__box {
+    width: 90%;
+    height: 15%;
+
+    border: 0.1em solid rgb(29, 139, 29);
+    border-radius: 2em;
+
+    margin: 4em auto;
+    padding: 1.5em 0.5em;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.quote-btn {
+    align-self: flex-end;
+   
+    width: 20%;
+    height: 10%;
+    margin: 0 3.5em;
+
+    border: none;
+    border-radius: 2em;
+    background-color: limegreen;
+    color:black;
+    font-size: 1.3em;
+}
+
+.fas {
+    padding: 0.7em;
+}
+
+@media only screen and ( max-width: 922px ){
+    .quote-btn {
+        width: 30%;
+        height: 15%;
+    }
+
+}
